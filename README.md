@@ -37,7 +37,7 @@ Replace your-virustotal-api-key and your-abuseipdb-api-key in the script with yo
 ```
 ## Usage
 Run the script:
-```bash
+
 ```bash
 python email_analyzer.py
 ```

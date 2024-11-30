@@ -25,3 +25,49 @@ Email Phishing Analyzer is a Python script designed to help identify potential p
    ```bash
    git clone https://github.com/yourusername/email-phishing-analyzer.git
    cd email-phishing-analyzer
+
+## Install dependencies:
+2. pip install -r requirements.txt
+
+## Set your API keys:
+
+Replace your-virustotal-api-key and your-abuseipdb-api-key in the script with your respective API keys.
+
+Usage
+Run the script:
+
+bash
+Copy code
+python email_analyzer.py
+Provide the path to the .eml file you want to analyze.
+
+Choose whether to save the results as JSON or view them directly in the CLI.
+
+Output
+The script provides:
+
+Email metadata (From, To, Subject, etc.)
+Authentication results (SPF, DKIM, DMARC)
+IP and domain reputation analysis
+Extracted URLs and VirusTotal links
+Suspicious keywords detected
+A phishing score
+Example
+Here’s an example output:
+{
+    "Email Information": {
+        "From": "example@example.com",
+        "To": "user@example.com",
+        "Subject": "Urgent: Action Required",
+        "Date": "2024-01-01 12:00:00",
+        "Authentication-Results": "spf=pass dkim=fail dmarc=pass"
+    },
+    ...
+}
+
+
+Contributing
+Contributions are welcome! Please fork the repository and submit a pull request.
+
+Disclaimer
+This tool is intended for educational and research purposes only. Always respect privacy laws and obtain proper consent when analyzing email data.

@@ -71,7 +71,7 @@ Here’s an example output:
 ```
 
 Contributing
-Contributions are welcome! Please fork the repository and submit a pull request.
+Contributions are welcome! Please fork the repository, make your changes, and submit a pull request.
 
 Disclaimer
 This tool is intended for educational and research purposes only. Always respect privacy laws and obtain proper consent when analyzing email data.

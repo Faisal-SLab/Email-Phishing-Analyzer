@@ -27,6 +27,7 @@ Email Phishing Analyzer is a Python script designed to help identify potential p
    cd email-phishing-analyzer
 
 ## Install dependencies:
+   Install requirements
    ```bash
    pip install -r requirements.txt
 

@@ -21,11 +21,11 @@ Email Phishing Analyzer is a Python script designed to help identify potential p
   - [AbuseIPDB](https://www.abuseipdb.com/)
 
 ### Setup
-1. Clone the repository:
+## Clone the repository:
    ```bash
    git clone https://github.com/yourusername/email-phishing-analyzer.git
    cd email-phishing-analyzer
-
+  ```
 ## Install dependencies:
    Install requirements
    ```bash

@@ -30,17 +30,17 @@ Email Phishing Analyzer is a Python script designed to help identify potential p
    Install requirements
    ```bash
    pip install -r requirements.txt
-
+```
 ## Set your API keys:
-
+```bash
 Replace your-virustotal-api-key and your-abuseipdb-api-key in the script with your respective API keys.
-
-Usage
+```
+## Usage
 Run the script:
-
-bash
-Copy code
+```bash
+```bash
 python email_analyzer.py
+```
 Provide the path to the .eml file you want to analyze.
 
 Choose whether to save the results as JSON or view them directly in the CLI.
@@ -54,8 +54,10 @@ IP and domain reputation analysis
 Extracted URLs and VirusTotal links
 Suspicious keywords detected
 A phishing score
-Example
+
+## Example
 Here’s an example output:
+```bash
 {
     "Email Information": {
         "From": "example@example.com",
@@ -66,7 +68,7 @@ Here’s an example output:
     },
     ...
 }
-
+```
 
 Contributing
 Contributions are welcome! Please fork the repository and submit a pull request.

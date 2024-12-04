@@ -23,7 +23,7 @@ Email Phishing Analyzer is a Python script designed to help identify potential p
 ### Setup
 ## Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/email-phishing-analyzer.git
+   git clone https://github.com/Faisal-SLab/Email-Phishing-Analyzer.git
    cd email-phishing-analyzer
   ```
 ## Install dependencies:
